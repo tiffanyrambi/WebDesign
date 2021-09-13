@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulir Calon Pegawai</legend><br>
+            <label for="name">Nama : </label>
+            <input type="text" name="name"><br><br>
+            <label for="alamat">Alamat : </label>
+            <input type="text" name="alamat"><br><br>
+            <label for="password">Password : </label>
+            <input type="text" name="password"><br><br>
+    
+            <section class="jenisKelamin">
+                <span>Jenis Kelamin</span>
+                <input type="radio" name="jenisKelamin" id="laki=laki" value="laki-laki">
+                <label for="laki-laki">Laki-laki</label>
+                <input type="radio" name="jenisKelamin" id="perempuan" value="perempuan">
+                <label for="perempuan">Perempuan</label><br><br>
+            </section>
+
+            <section class="programmingLanguage">
+                <span>Bahasa pemograman yang dikuasai : </span>
+                <input type="checkbox" name="bhsProgram" id="web" value="web">
+                <label for="web">Web</label>
+                <input type="checkbox" name="bhsProgram" id="mobile" value="mobile">
+                <label for="mobile">Mobile</label>
+                <input type="checkbox" name="bhsProgram" id="desktop" value="desktop">
+                <label for="desktop">Desktop</label> <br><br>
+            </section>
+
+            <section class="kotaAsal">
+                <span>Kota Asal : </span>
+                <select>
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Manado">Manado</option>
+                    <option value="Semarang">Semarang</option>
+                    <option value="Makassar">Makassar</option> 
+                </select>
+            </section> 
+
+            <br>
+            <section class="alasan">
+                <span>Apa yang membuat kami harus memilih Anda?</span><br>
+                <textarea rows="9" cols="45" placeholder="Tulis jawaban Anda di sini"></textarea>
+            </section>
+
+            <br>
+            <button>Proses</button>
+        </fieldset>
+    </form>
+</body>
+</html>

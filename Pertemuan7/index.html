@@ -1,0 +1,47 @@
+<!--Exercise 5: Membuat tabel-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML untuk tabel</title>
+</head>
+<body>
+    <h1>HTML tag untuk membuat tabel</h1>
+
+    <table border="1" cellspacing="0"cellpadding="6">
+        <thead>
+            <tr bgcolor="grey">
+                <th>#</th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+                <th>kolom 3</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <th rowspan="3">row span 3</th>
+                <td>baris 1, kolom 1</td>
+                <td colspan="2" align="center">colspan 2</td>
+            </tr>
+            <tr>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+                <td>baris 2, kolom 3</td>
+            </tr>
+            <tr>
+                <td>baris 3, kolom 1</td>
+                <td>baris 3, kolom 2</td>
+                <td>baris 3, kolom 3</td>
+            </tr>
+        </body>
+        <tfoot>
+            <tr bgcolor=grey>
+                <th colspan="3">Total</th>
+                <th>Jumlah</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
