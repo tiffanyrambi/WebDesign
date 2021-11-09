@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0A1D37;
+}
+
+body{
+    background-color: #FFF5DA;
+}
+
+.navigation {
+    overflow: hidden;
+    background-color: #0A1D37;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigation a {
+    float: left;
+    text-align: center;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color:#FFF5DA;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+}
+  
+.navigation a:hover {
+    background-color:#FFBD9B;
+    color:#0A1D37;
+}
+
+h1::selection {
+    color: #FFBD9B;
+    background-color:#0A1D37;
+}
+
+.main {
+    margin-top: 3rem;
+}
+
+#profile,
+#biography, 
+#education,
+#skills,
+#interest,
+#languages,
+#additional-info,
+#contact-me,
+h2 {
+    padding-top: 3rem;
+}
+
+
+h2, p {
+    margin-left: 1.3rem;
+}
+
+table, h3, p, iframe, audio {
+    margin-left: 1.8rem;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+p, ol, ul{ 
+    margin-top: 0.5rem;
+}
+
+ol, ul{
+    margin-left: 3.5rem;
+}
+
+form {
+    margin-bottom: 3rem;
+}
+
+iframe , img{
+    max-width: 100%;
+}
+
+@media (max-width: 768px){
+    * {
+        font-size: small;
+    }
+}
+
